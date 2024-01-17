@@ -13,7 +13,7 @@ export default function Home() {
     "Content-Type": "application/json"
   };
 
-  const { id } = useParams();
+  const { id } = useParams()  ;
   const { users, deleteUser, loadUsers } = useContext(DataContext);
 
 
